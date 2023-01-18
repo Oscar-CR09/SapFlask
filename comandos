@@ -1,0 +1,8 @@
+python -m pip install flask
+python -m pip install flask-sqlalchemy
+python -m pip install flask-migrate
+python -m pip install psycopg2
+flask db init // carpeta migrations
+flask db migrate
+flask db upgrade
+flask db stamphead
